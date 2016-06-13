@@ -58,7 +58,7 @@ public class ServerController {
 						//Do nothing
 					}
 				}
-				while(inSocket == null && !ended) {
+				while(outSocket == null && !ended) {
 					try {
 						ServerConstants.OUTPUT_CONSOLE_STREAM.println(" - Waiting the output client...");
 						outSocket = outServer.accept();

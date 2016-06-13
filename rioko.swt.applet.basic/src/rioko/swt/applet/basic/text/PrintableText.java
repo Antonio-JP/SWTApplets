@@ -58,6 +58,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
@@ -68,6 +69,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
@@ -78,6 +80,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
@@ -88,6 +91,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
@@ -98,6 +102,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
@@ -108,6 +113,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
@@ -118,6 +124,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
@@ -128,6 +135,7 @@ public final class PrintableText extends Composite {
 					@Override
 					public void run() {
 						mapToTexts.get(textId).setText(text);
+						mapToTexts.get(textId).setTopIndex(mapToTexts.get(textId).getLineCount()-1);
 					}
 				});
 			}
