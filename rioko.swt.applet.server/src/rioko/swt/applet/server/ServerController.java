@@ -101,6 +101,22 @@ public class ServerController {
 					}
 				}
 			}
+			
+			
+			try {
+				ServerConstants.INPUT_CONSOLE_STREAM.println("Closing input socket...");
+				inSocket.close();
+				inSocket = null;
+			} catch (IOException e) {
+				ServerConstants.INPUT_CONSOLE_STREAM.println("Input socket already closed");
+			}
+			try {
+				ServerConstants.OUTPUT_CONSOLE_STREAM.println("Closing output socket...");
+				outSocket.close();
+				outSocket = null;
+			} catch (IOException e) {
+				ServerConstants.OUTPUT_CONSOLE_STREAM.println("Output socket already closed");
+			}
 		}
 		
 		close();
