@@ -9,7 +9,7 @@
 	<property name="dist.lib.dir" location="dist/lib" />
 	<property name="dist.code.dir" location="dist/code" />
 	<property name="lib.dir" value="lib" />
-	<property name="main-class" value="rioko.swt.applet.console.ConsoleApplet" />
+	<property name="main-class" value="rioko.swt.applet.console_client.ConsoleApplet" />
 	
 	<target name="Clean" description="Clean jar files">
 		<delete dir="${dist.dir}" />
